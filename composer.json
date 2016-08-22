@@ -1,0 +1,13 @@
+{
+    "name": "europaymentgroup/epg-php-sdk",
+    "description": "A PHP SDK for the services of the Euro Payment Group",
+    "license": "GNU General Public License",
+    "authors": [
+        {
+            "name": "Dennis Lassiter",
+            "email": "dl@europaymentgroup.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

@@ -9,5 +9,33 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "EuroPaymentGroup\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EuroPaymentGroupTest\\": "test/"
+        }
+    }
+    "require": {
+        "php": "^5.5 || ^7.0"
+        "guzzlehttp/guzzle": "6.2.*",
+        "zendframework/zend-log": "2.8.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
+    },
+    "scripts": {
+        "check": [
+            "@cs",
+            "@test"
+        ],
+        "cs": "phpcs",
+        "cs-fix": "phpcbf",
+        "test": "phpunit",
+        "test-coverage": "phpunit --coverage-clover clover.xml"
+    }
 }
+

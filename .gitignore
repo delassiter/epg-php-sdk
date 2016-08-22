@@ -1,1 +1,4 @@
 /vendor/
+composer.ock
+coveralls-upload.json
+clover.xml

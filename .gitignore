@@ -1,4 +1,4 @@
 /vendor/
-composer.ock
+composer.lock
 coveralls-upload.json
 clover.xml
